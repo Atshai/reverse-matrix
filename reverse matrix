@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main() {
+int arr[100][100];
+int b,d;
+scanf("%d",&b);
+scanf("%d",&d);
+for(int i=0;i<b;++i)
+{ for(int j=0;j<d;++j){
+scanf("%d",&arr[i][j]);
+}
+}
+for(int i=0;i<b;++i){
+for(int j=0;j<d;++j){
+printf("%d",arr[j][i]);
+}
+printf("\n");
+}
+return 0;
+} 
